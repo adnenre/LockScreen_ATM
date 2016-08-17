@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/user"
+            android:icon="@drawable/user"
+            android:title="User" />
+
+        <item
+            android:id="@+id/password"
+            android:icon="@drawable/password"
+            android:title="Password" />
+        <item
+            android:id="@+id/lock"
+            android:icon="@drawable/menulock"
+            android:title="Lock" />
+        <item
+            android:id="@+id/theme"
+            android:icon="@drawable/th"
+            android:title="Theme" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
